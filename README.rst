@@ -42,6 +42,7 @@ default is ``{'is_active': True}``
 Usage
 -----
 Application has 2 task for celery:
+
 1. make_minus_transactions
 Calculating periodic payments for all active subscriptions, creates transactions and disable subscriptions, if need.
 Must be run at least once a day.
