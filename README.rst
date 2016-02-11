@@ -29,6 +29,8 @@ First, you need to add custom field to your user model to store balance. This fi
 with  ``max_digits=8`` and  ``decimal_places=2``.
 Example:
 
+.. code:: python
+
     balance = models.DecimalField(u'Balance', max_digits=8, decimal_places=2, default=0)
 
 SUBSCRIPTION_SUBSCRIBER_MODEL — your user model in format ``app.Model``, default is ``auth.User``
