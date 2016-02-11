@@ -7,8 +7,8 @@ to disconnect at the end of the subscription funds and enable subscription when 
 
 Requirments
 -----------
-celery
-django-celery
+- celery
+- django-celery
 
 Installation
 ------------
